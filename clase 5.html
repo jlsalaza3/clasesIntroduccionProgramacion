@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>clase 5</title>
+</head>
+<body>
+    <form action="">
+        <h1>clase 20240716</h1>
+        <br><br>
+        <!-- input para ingresar contraseñas en un formulario etiqueta password -->
+         <label for="">Conttraseña</label>
+         <br>
+         <input type="password" name="" id="" placeholder="contraseña">
+         <br><br>
+         <label for="">Fecha nacimiento</label>
+         <br>
+         <input type="date" name="" id="" placeholder="fecha de nacimiento">
+         <br><br>
+         <!-- para que adicional a la fecha me agregue hora necesito seleccionar el input fecha local -->
+         <label for="">Fecha y Hora</label>
+         <br>
+         <input type="datetime-local" name="" id="">
+         <br><br>
+        <!-- para hacer fecha y hora  separado primero un label con input date y luego otro label con input time -->
+         <label for="">Hora</label>
+         <br>
+         <input type="time" name="" id="" placeholder="hora cita">
+        <br><br>
+        <!-- input radio permite seleccionar con bolita, para que solo seleccione uno se utiliza el atributo name IGUAL, en este caso GENERO -->
+        <label for="">Genero</label><br>
+        <input type="radio" name="GENERO" id=""><label for="">Femenino</label>
+        <br>
+        <input type="radio" name="GENERO" id=""><label for="">Masculino</label>
+        <br>
+        <input type="radio" name="GENERO" id=""><label for="">Otro</label>
+        <br><br>
+        <!-- para generar lista desplegable etiquea SELECT -->
+        <label for="">ciudad Recidensia</label><br>
+        
+        <select name="" id="">
+            <option value="" disabled>Seleccione</option>
+            <option value="Manrique">Manrique</option>
+            <option value="Conquistadores">Conquistadores</option>
+            <option value="Belen">Belen</option>
+            <option value="Prado">Prado</option>
+            <option value="Centro">Centro</option>
+            <!-- el value es el valor que se va almacenar en la Base de datos -->
+        </select>
+        <br>
+        <br><br>
+        <label for="">comentarios</label>
+        <br><br>
+        <!-- para ingresar area de comentario etiqueta textarea y con atributo cols y rows delimito que tan grande es -->
+        <textarea name="" id="" cols="50" rows="20" placeholder="escribe tu opinión"></textarea>
+        <br><br>
+        <!-- atributo para requerir que se llene algo o acepte terminos y condiciones con etiqueta input type checkbox yse le coloca atributo required -->
+         <input type="checkbox" name="" id="" required><label for="">Acepta terminos y condiciones</label>
+         <br><br>
+
+         <!-- lo mas importante al finsalizar el formuñario es el BOTON, cn el input type button (no hace nada)  input submit (verifica los datos) -->
+          <!-- estre no hace nada, es un boton estatico, su funcionalidad la doy desde el lenguaje de programació -->
+        <input type="button" value="Enviar Datos">
+            <!-- este boton verifica, hace un recargo de informacion, limpia lo que habia llenado, procesa la información y despues recarga la página -->
+        <input type="submit" value="Enviar Datos">
+        <!-- este boton lo unico que hace es limpiar lo que yo escribí, con etiqueta input reset -->
+         <input type="reset" value="Limpiar Formulario">
+         <!-- cuando estoy dentro de un formulario los botones van con la etiqueta input submit, o input button, o input reset, si estoy por fura de un formulario existen las mismas 3 opciones de boton pero solo con etiqueta button -->
+
+
+
+
+
+    </form>
+
+
+</body>
+</html>

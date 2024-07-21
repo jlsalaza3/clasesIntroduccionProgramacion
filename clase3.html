@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- aqui voy a poner la imagen de laetiqueta etiqueta link favicon y en el atributohref coloco la ruta del archivo del icono que voy a colocar en la pestaña la imagen que uno selecciona debe ser sin fondo   -->
+     <link rel="shortcut icon" href="/img/icono google imagen sin fondo.png" type="image/x-icon">
+    <title>Archivo Multimedia
+        
+    </title>
+</head>
+<body>
+        <h3>Archivos Multimedia</h3>
+        <h4>Imagenes en HTML</h4>
+        <h3>Lockheed Martin F-35 Lighting II</h3>
+        <!-- Unidades de medida sirve para controlar los tamaños de los elementos que vamos a tener dentro de la pagina
+        1- pixel = es un punto de luz que me genera  el programa se representa con px, ejemplo 200px
+        2- Porcentajes: se representa por % son mucho mas grande que un pixel, es un contenedor o contenido  de X%
+        -->
+        <img src="/img/F35.jpeg" alt="Avión 1" width="1000px" height="500">
+        <!-- el atributo que trae por default img es src es para agregar la ruta y la imagen que queremos, siempre se debe escribir /mobreCarpeta/NombreImagenque 
+         el 2do atributo que trae por defecto la etiqueta img es alt y es para agregar un nombre a la imagen, aparece en caso o la imagen o el nombre del archivo de la imagen cambie se borre quede mal escrita la ruta el nombre del archivo y saca un icono que falta y el nombre que puse dentro de alt -->
+         <!-- para cambiar el tamaño de la imagen se agrega 2 atributo dento de la etiqueta img, que serian 
+          width =el ancho 
+          height = que es el alto  -->
+<hr>
+        <h3>segunda forma de insertar imagenes con dirección url</h3>
+        <!-- segunda forma de insertar imagenes colocando la direccion de internet donde se encuentra la imagen, me paro sobre la imagen de internet, click derecho copiar la  -->
+            <img src="https://images.pexels.com/photos/459402/pexels-photo-459402.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Avión 2">
+<hr>
+            <!-- convertir una imagen en una direccion -->
+        <h3>Imagen que sirva para que abra una nueva página</h3>
+            <a href="https://www.facebook.com/?locale=es_LA" target="_blank">
+                <img src="img/facebook.png" alt="link facebook" width="100px" height="100"> 
+            </a>
+<hr>
+        <!-- agregar imagenes animadas .gif -->
+         <img src="img/19.gif" alt="">
+
+<hr>
+        <h4>Videos en HTML</h4>
+        <!-- insertar videos se usan 2 etiquetas
+         1-para decir que es un video intreso etiqueta video, despues borro el atributo src source que trae por default y dentro de esta etiqueta vuelvo a escribir source y selecciono la etiqueta source:src 
+         por ultimo coloco la etiqueta controls enseguida de la primera etiqueta video que sale en la linea y antes del cierre del simbolo> para que salga el play el volumen y los demas controles del video
+         2-para decir que es una ruta de un video
+          -->
+            <video controls width="500px" height="500px">
+                    <source src="video/avion despegando.mp4" type="">
+
+            </video>
+<hr>
+        <h4>Audio en HTML</h4>
+        <audio controls>
+            <source src="/audio/La Borrasca - Los Relicarios (Buen Sonido).mp3" type="">
+        </audio>
+<hr>
+<!-- para traer directamente videos de youtube, me paro en el video le doy compartir, luego selecciono incorporar lo copio y lo pego dentro del codigo  -->
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2Oc77RHZN6c?si=EuA_nrW2Uss6Myxe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<hr>
+<!-- TAREA
+1-consultar:que es la etiqueta iframe, para que sirve y que otras opciones a parte de los videos de youtuber puedo incorporar en esta etiqueta
+ 2-  que atributos adicionales le podemos asignar a los audios y a los videos de html
+ 3- que otras etiquetas multimedia html existen? -->
+
+<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur facilis dolores error natus soluta consectetur, corrupti dicta quas nemo quaerat atque delectus, veniam dignissimos sapiente esse neque placeat animi necessitatibus!</p>
+
+<hr>
+<!-- imagen que vamos a poner de icono se pone en el head -->
+</body>
+</html>
