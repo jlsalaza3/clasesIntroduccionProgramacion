@@ -1,0 +1,56 @@
+/* Selector de etiqueta todos los h2 de mi pagina van a quedar de ese color*/
+h2
+{
+    color: darkturquoise;
+    /* la propiedad color es solamente para modificar el color de las letras */
+}
+/* segundo tipo de selector via ID: me permite llamar a un unico elemento del HTML */
+#parrafo1
+{
+    color: blueviolet;
+    font-size: 20px;
+    /* font size para modificar el tamaño de las letras, inicialmente lo vamos a modificar el tamaño con pixeles px pero existe otra unidad sugerida para modificar el tamaño que veremos mas adelante */
+
+}
+/* selector de clase, nos permite modificar a uno o varios elementos del HTML */
+.fuente
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-family: "Playwrite AU SA", cursive;
+    font-size: 40px;
+    color: firebrick;
+}
+h1
+{
+    color: chartreuse;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center; /* sirve sololo para alinear textos, por defecto vienen alineados a la izquierda */
+}
+/* Fondos: se utiliza la propiedad background de CSS se le puede dar a un elemento o a toda la pagina*/
+p
+{
+    background-color: gold;
+}
+/* si quiero el fondo de toda la pagina llamo a body */
+body
+{
+    background-color:darkgray;
+}
+/* tambien se puede colocar de fondo una imagen */
+
+
+
+body
+{
+    background-image: url("/img/F35.jpeg");
+    /* cuando busco la ruta debo escribirla dentro de comillas para luego buscar la ruta */
+    background-size: cover;
+    /* backgroun size con atributo cover, permite que la imagen cubra toda la pagina */
+}
+
+body
+{
+    background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+    /* utilize la pagina color space para generar un fondo de varios colores*/
+}

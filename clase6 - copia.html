@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+        <h1>Tablas en HTML</h1>
+        <table border="2"><!--Empezamos con la etiqueta table para indicar que se hara una tabla-->
+            <thead><!--<thead> que indica que el contenido de esta seccion son los enunciados de la tabla-->
+                <tr><!--tr es para crear una fila de contenido-->
+                        <th>Nombre</th><!--th crea los enunciados de la tabla con el formato de texto en negrita-->
+                        <th>Apellido</th>
+                        <th>Edad</th>
+                        <th>Telefono</th>
+                </tr>
+            </thead>
+            <tbody><!--tbody indica que vamos a agregar el contenido de la tabla(la informacion)-->
+                <tr>
+                    <td>Luis</td>
+                    <td>Ramirez</td>
+                    <td>23</td>
+                    <td>234567</td>
+                </tr>
+                <tr>
+                    <td>Maria</td>
+                    <td>Gomez</td>
+                    <td>43</td>
+                    <td>234567</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2>Ejemplo de tabla combinada</h2>
+        <table border="">
+                <thead>
+                    <tr><!--Una primera fila-->
+                        <th colspan="4">Lista de Estudiantes</th>
+                    </tr><!--Termina la primera fila-->
+                    <tr><!--Segunda Fila-->
+                        <th>Cedula</th>
+                        <th>Nombre</th>
+                        <th>Correo</th>
+                        <th>Direccion</th>
+                    </tr><!--Termina la segunda fila-->
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>12345</td>
+                        <td>Juan</td>
+                        <td>juan@gmail.com</td>
+                        <td>Cr 34</td>
+                    </tr>
+                </tbody>
+        </table>
+            <br><br>
+        <table border="">
+               <tr>
+                    <td>aaaaaaaaaaaa</td>
+                    <td>aaaaaaaaaaaa</td>
+                    <td colspan="2">aaaaaaaaaaaa</td>
+               </tr>
+               <tr>
+                    <td>aaaaaaaaaa</td>
+                    <td colspan="2">aaaaaaaaaaaa</td>
+                    <td rowspan="2">aaaaaaaa</td>
+               </tr>
+               <tr>
+                    <td rowspan="3">aaaaaaaaaa</td>
+                    <td>aaaaaaaaaa</td>
+                    <td>aaaaaaaaaa</td>
+               </tr>
+               <tr>
+                    <td colspan="3">aaaaaaaaaaaa</td>
+               </tr>
+               <tr>
+                     <td colspan="3">aaaaaaaaaaaa</td>
+                </tr>
+
+        </table>
+</body>
+</html>

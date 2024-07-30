@@ -1,0 +1,49 @@
+#imagen1
+{
+background-image: url(/img/el\ principito.png);
+}
+
+
+
+.fuente
+{
+color: rgb(41, 184, 98);
+font-size:small;
+}
+
+u
+{
+
+    color: rgb(71, 156, 71);
+    font-style: ;
+}
+#texto2
+{
+    color: rgb(240, 18, 18);
+}
+
+#texto3
+{
+    text-decoration: overline underline;
+}
+#texto4{
+    font-size: xx-large;
+}
+#texto5{
+    color: blue;
+}
+#texto6{
+    color: red;
+}
+#parrafo4{
+    background-image: url(/img/el\ principito.png);
+    background-repeat: repeat-x;
+    background-size: auto 200px;
+    background-position: bottom left;
+    height: 200px;
+    width: 100%;
+    text-align: center;
+    line-height: 200px;
+    color: red;
+    font-size: xx-large;
+}
